@@ -34,17 +34,22 @@ h6 {color: gray;}
 .stats { 
     color:white; }
 
-.employment { 
+.employment, .education{ 
     max-width: 80%;
 }
+
+.languages {color: gray;
+text-align: left;
+font-size: normal;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
 
 .position { 
     margin-top: -10px;
 }
 
-
-      
-      #progressbar{
+#progressbar {
         padding: 1px;
         margin-top: -10px;
         background-color: blue;
@@ -53,10 +58,9 @@ h6 {color: gray;}
         font-size: x-small;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         text-align:right;
-        color: white;
-      }
-
-      #progressbar2{
+        color: white
+    }
+#progressbar2 {
         padding: 1px;
         margin-top: -10px;
         background-color: green;
@@ -65,10 +69,9 @@ h6 {color: gray;}
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         text-align:right;
         color: white;
-      }
+}
 
-      
-      #progressbar3{
+#progressbar3 {
         padding: 1px;
         margin-top: -10px;
         background-color: goldenrod;
@@ -77,9 +80,8 @@ h6 {color: gray;}
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         text-align:right;
         color: white;
-      }
-      
-      #progressbar4{
+}
+#progressbar4 {
         padding: 1px;
         margin-top: -10px;
         background-color: red;
@@ -88,9 +90,9 @@ h6 {color: gray;}
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         text-align:right;
         color: white;
-      }
-      
-      #progressbar5{
+}
+
+#progressbar5{
         padding: 1px;
         margin-top: -10px;
         background-color: purple;
@@ -99,4 +101,53 @@ h6 {color: gray;}
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         text-align:right;
         color: white;
-      }
+}
+
+.graphic_skills {color: gray;}
+
+ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+
+       
+    }
+    
+ /* Spacing for bullets */
+    ul.colored-bullets li {
+        position: relative;
+        padding-left: 25px; 
+        margin-bottom: 10px;
+    }
+    
+    /* Square bullets */
+    ul.colored-bullets li::before {
+        content: '';
+        position: absolute;
+        left: 0;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 15px;
+        height: 15px;
+    }
+    
+    /* Bullet colors */
+    .bullet-red::before {
+        background-color: red;
+    }
+    
+    .bullet-blue::before {
+        background-color: blue;
+    }
+
+    .bullet-orange::before {
+        background-color: orange;
+    }
+    
+    .bullet-green::before {
+        background-color: green;
+    }
+    
+    .bullet-purple::before {
+        background-color: purple;
+    }
