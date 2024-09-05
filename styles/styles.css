@@ -4,7 +4,6 @@
     flex-wrap: wrap;   
     margin: 0 auto;
     max-width: 1000px;
-    text-align: left;
 }
 
 
@@ -23,3 +22,60 @@ h2 {color: rgb(34, 82, 138); font-family: Verdana, Geneva, Tahoma, sans-serif; m
 .stats { 
     color:white; }
 
+      
+      #progressbar{
+        padding: 1px;
+        margin-top: -10px;
+        background-color: blue;
+        width: 90%;
+        height: 13px;
+        font-size: x-small;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        text-align:right;
+        color: white;
+      }
+
+      #progressbar2{
+        padding: 1px;
+        margin-top: -10px;
+        background-color: green;
+        height: 13px;
+        font-size: x-small;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        text-align:right;
+        color: white;
+      }
+
+      
+      #progressbar3{
+        padding: 1px;
+        margin-top: -10px;
+        background-color: goldenrod;
+        height: 13px;
+        font-size: x-small;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        text-align:right;
+        color: white;
+      }
+      
+      #progressbar4{
+        padding: 1px;
+        margin-top: -10px;
+        background-color: red;
+        height: 13px;
+        font-size: x-small;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        text-align:right;
+        color: white;
+      }
+      
+      #progressbar5{
+        padding: 1px;
+        margin-top: -10px;
+        background-color: purple;
+        height: 13px;
+        font-size: x-small;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        text-align:right;
+        color: white;
+      }
