@@ -1,0 +1,25 @@
+.container
+{ display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;   
+    margin: 0 auto;
+    max-width: 1000px;
+    text-align: left;
+}
+
+
+body { background-color: black;}
+
+a { color: rgb(34, 82, 138); text-decoration: none;}
+
+p {color: gray; }
+
+h1, h3, h5 {color:white; font-family: Verdana, Geneva, Tahoma, sans-serif; }
+
+h2 {color: rgb(34, 82, 138); font-family: Verdana, Geneva, Tahoma, sans-serif; margin-top: -20px;}
+
+.biography {color: gray;}
+
+.stats { 
+    color:white; }
+
